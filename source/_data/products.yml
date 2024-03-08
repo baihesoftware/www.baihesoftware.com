@@ -1,0 +1,42 @@
+## 产品
+# name: 标题
+# en_name: 英文标题
+# description: 描述内容
+# cover: 封面图片路径
+# link: 链接路径，无链接为空即可
+# preview: 预览路径，无则可以为空
+
+- name: 捭阖软件企业管家
+  en_name: BaiheSoftware ERP
+  description: 开源 ERP 系统
+  cover: /images/products/baihesoftware-erp.png
+  link: /products
+  preview:
+
+- name: 捭阖软件云服务
+  en_name: BaiheSoftware Cloud
+  description: 云计算服务平台
+  cover: /images/products/baihesoftware-cloud.png
+  link: /products
+  preview:
+
+- name: MsgHub
+  en_name: MsgHub
+  description: 集成电子邮件和即时通讯功能的消息服务平台
+  cover: /images/products/msghub.png
+  link: /products
+  preview:
+
+- name: ProjectHub
+  en_name: ProjectHub
+  description: 基于 Git 的软件源代码托管服务平台
+  cover: /images/products/projecthub.png
+  link: /products
+  preview:
+
+- name: SupersetHub
+  en_name: SupersetHub
+  description: 基于 Apache Superset 的 BI 服务平台
+  cover: /images/products/supersethub.png
+  link: /products
+  preview:
