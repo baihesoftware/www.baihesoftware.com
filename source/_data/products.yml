@@ -1,0 +1,28 @@
+## 产品
+# name: 标题
+# en_name: 英文标题
+# description: 描述内容
+# cover: 封面图片路径
+# link: 链接路径，无链接为空即可
+# preview: 预览路径，无则可以为空
+
+- name: 捭阖软件企业管家
+  en_name: BaiheSoftware ERP
+  description: 开源 ERP 系统
+  cover: /images/products/baihesoftware-erp.png
+  link: http://erp.baihesoftware.com
+  preview:
+
+- name: 捭阖软件云服务
+  en_name: BaiheSoftware Cloud
+  description: 云计算服务平台
+  cover: /images/products/baihesoftware-cloud.png
+  link: http://cloud.baihesoftware.com
+  preview:
+
+- name: 烽火台
+  en_name: MsgHub
+  description: 集成电子邮件和即时通信功能的消息服务平台
+  cover: /images/products/msghub.png
+  link: http://www.msghub.net
+  preview:
