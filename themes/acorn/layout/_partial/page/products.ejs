@@ -1,0 +1,20 @@
+<div class="row">
+  <% for (var item in site.data.products){%>
+    <div class="col">
+      <div class="card rounded bg-white">
+        <a href="<%=url_for(site.data.products[item]['link']) %>">
+          <img class="card-img lazyload" data-src="<%=url_for(site.data.products[item]['cover']) %>" alt="<%=site.data.products[item]['name'] %>">
+        </a>
+        <div class="card-body px-4">
+          <h5 class="card-title line-clamp line-clamp-1">
+            <a href="<%=url_for(site.data.products[item]['link']) %>">
+              <%=site.data.products[item]['name'] %>
+            </a>
+          </h5>
+          <hr class="hr">
+          <p class="card-text text-gray line-clamp line-clamp-2"><%=site.data.products[item]['description'] %></p>
+        </div>
+      </div>
+    </div>
+  <%} %>
+</div>
