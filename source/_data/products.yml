@@ -1,0 +1,28 @@
+## 产品
+# name: 标题
+# en_name: 英文标题
+# description: 描述内容
+# cover: 封面图片路径
+# link: 链接路径，无链接为空即可
+# preview: 预览路径，无则可以为空
+
+- name: 捭阖企业管家
+  en_name: BaiheERP
+  description: 开源时尚行业 ERP 系统
+  cover: /images/products/baiheerp.png
+  link: https://github.com/baihesoftware/baiheerp
+  preview:
+
+- name: 捭阖企业管家 Web 服务平台
+  en_name: BaiheERP Web Services
+  description: 捭阖企业管家连接外部系统的 Web 服务平台
+  cover: /images/products/baiheerp-ws.png
+  link: https://github.com/baihesoftware/baiheerp-ws
+  preview:
+
+- name: 捭阖企业管家管理中心
+  en_name: BaiheERP Admin Center
+  description: 捭阖企业管家 SaaS 部署系统
+  cover: /images/products/baiheerp-admin.png
+  link: https://github.com/baihesoftware/baiheerp-admin
+  preview:
