@@ -1,0 +1,28 @@
+## 产品
+# name: 标题
+# en_name: 英文标题
+# description: 描述内容
+# cover: 封面图片路径
+# link: 链接路径，无链接为空即可
+# preview: 预览路径，无则可以为空
+
+- name: 捭阖软件企业管家
+  en_name: BaiheSoftware ERP
+  description: 开源 ERP 系统
+  cover: /images/products/baihesoftware-erp.png
+  link: /products
+  preview:
+
+- name: 捭阖软件客户管家
+  en_name: BaiheSoftware CRM
+  description: 开源 CRM 系统
+  cover: /images/products/baihesoftware-crm.png
+  link: /products
+  preview:
+
+- name: 捭阖云
+  en_name: BaiheCloud
+  description: 云计算服务平台
+  cover: /images/products/baihecloud.png
+  link: /products
+  preview:
