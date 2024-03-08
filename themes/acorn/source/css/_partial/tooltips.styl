@@ -1,0 +1,40 @@
+//
+// Tooltips
+// 仅用于微信二维码展示，感觉没必要使用 popperjs
+//
+tooltip-color = primary-color
+tooltip-size  = 12.8rem
+arrow-size    = 8px
+icon-size     = 32px
+
+.tooltip-qrcode
+  position: relative
+  > .tooltip
+    position: absolute
+    z-index: 9
+    bottom: 100%
+    left: 50%
+    background-color: tooltip-color
+    border-radius: border-radius-value
+    width: tooltip-size
+    padding: arrow-size
+    opacity: 0
+    pointer-events: none
+    transform: translate(-50%, -(arrow-size * 2))
+    transition: transition-base
+    &::after
+      content: ''
+      display: block
+      sizing(arrow-size)
+      background-color: tooltip-color
+      transform: rotate(45deg)
+      position: absolute
+      left: 50%
+      bottom: 0
+      margin-left: -(arrow-size/2)
+      margin-bottom: -(arrow-size/2)
+  &:hover
+    > .tooltip
+      opacity: 1
+      transform: translate(-50%, -(arrow-size))
+    

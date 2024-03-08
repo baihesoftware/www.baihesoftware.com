@@ -1,0 +1,28 @@
+## 产品
+# name: 标题
+# en_name: 英文标题
+# description: 描述内容
+# cover: 封面图片路径
+# link: 链接路径，无链接为空即可
+# preview: 预览路径，无则可以为空
+
+- name: 企业管家
+  en_name:
+  description: 基于 CommonERP 的 SaaS 平台
+  cover: /images/products/erp.png
+  link: /products
+  preview:
+
+- name: 捭阖云
+  en_name:
+  description: 云计算服务平台
+  cover: /images/products/baihecloud.png
+  link: /products
+  preview:
+
+- name: MsgHub
+  en_name:
+  description: 集成电子邮件和即时通讯功能的消息服务平台
+  cover: /images/products/msghub.png
+  link: /products
+  preview:
