@@ -39,12 +39,21 @@
     <div class="pt-3 pb-5">
       <ul class="list-inline mb-0 text-center">
         <li class="list-inline-item">&copy; 2017-<%= date(new Date(), 'YYYY') %> <%= config.title || config.author %></li>
-        <% if (theme.beian.enable){ %>
+        <% if (theme.miit_beian.enable){ %>
           <li class="list-inline-item">
-            <%if (theme.beian.url){ %>
-              <a href="<%- url_for(theme.beian.url) %>" target="_blank"><%- theme.beian.number %></a>
+            <%if (theme.miit_beian.url){ %>
+              <a href="<%- url_for(theme.miit_beian.url) %>" target="_blank"><%- theme.miit_beian.number %></a>
               <% } else { %>
-                <%- theme.beian.number %>
+                <%- theme.miit_beian.number %>
+            <% } %>
+          </li>
+        <% } %>
+        <% if (theme.mps_beian.enable){ %>
+          <li class="list-inline-item">
+            <%if (theme.mps_beian.url){ %>
+              <a href="<%- url_for(theme.mps_beian.url) %>" target="_blank"><%if (theme.mps_beian.icon){ %><img src="<%= url_for(theme.mps_beian.icon) %>" alt="mps-beian-icon" style="width: 22px; height: 24px;" /> <% } %><%- theme.mps_beian.number %></a>
+              <% } else { %>
+                <%- theme.mps_beian.number %>
             <% } %>
           </li>
         <% } %>

@@ -1,17 +1,24 @@
 # Header
 menu:
   首页: /
-  产品: /products
-  关于: /about
+  产品: /products/
+  关于: /about/
 
 # Content
 excerpt_link: 阅读全文
 
-# MIIT ICP/IP/DOMAIN
-beian:
+# MIIT ICP/IP/DOMAIN Beian
+miit_beian:
   enable: true
   number: 辽ICP备2023017484号-1
   url: https://beian.miit.gov.cn
+
+# MPS Beian
+mps_beian:
+  enable: true
+  icon: /images/mps-beian-icon.png
+  number: 辽公网安备21010602001381号
+  url: https://beian.mps.gov.cn/#/query/webSearch?code=21010602001381
 
 # Miscellaneous
 favicon: /images/favicon.png
